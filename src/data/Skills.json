@@ -1,0 +1,10 @@
+[
+    { "name": "JavaScript", "level": 90 },
+    { "name": "Node.js", "level": 90 },
+    { "name": "Python", "level": 70 },
+    { "name": "Astro", "level": 50 },
+    { "name": "MySQL", "level": 45 },
+    { "name": "TypeScript", "level": 40 },
+    { "name": "React", "level": 35 },
+    { "name": "Tailwind CSS", "level": 30 }
+]  

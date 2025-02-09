@@ -1,0 +1,54 @@
+---
+import socialLinks from '../data/Links.json'; 
+import Header from '../components/Header.astro';
+import Head from '../components/Head.astro';
+---
+
+<html lang="en">
+  <Head title="Links" />
+  <body class="bg-white text-gray-800">
+    <Header />
+
+    <main class="py-16">
+      <section class="max-w-5xl mx-auto px-4">
+        <div class="text-center mb-12">
+          <h1 class="text-4xl font-semibold text-gray-900">Links</h1>
+          <p class="text-lg text-gray-600 mt-2">SNSがメインの私に関するリンク集です</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-8 mb-8" id="social-links-container">
+          {socialLinks.slice(0, 6).map(link => (
+            <div class="bg-white p-6 rounded-lg shadow-lg w-full h-48 flex flex-col items-center justify-center hover:shadow-xl transition-shadow">
+              <a href={link.url} target="_blank" rel="noopener noreferrer" class="text-center">
+                <img src={link.icon} alt={link.name} class="w-16 h-16 mb-4 mx-auto" />
+                <p class="text-lg font-semibold text-gray-800">{link.name}</p>
+                <p class="text-sm text-gray-500 mt-2">{link.comment}</p>
+              </a>
+            </div>
+          ))}
+        </div>
+
+        {socialLinks.length > 6 && (
+          <div class="text-center mt-4">
+            <button class="text-gray-500 px-6 py-2 rounded underline decoration-solid" id="more-button">More</button>
+          </div>
+        )}
+
+        <div class={`grid grid-cols-2 gap-8 mt-8 ${socialLinks.length > 6 ? 'hidden' : ''}`} id="additional-links">
+          {socialLinks.slice(6).map(link => (
+            <div class="bg-white p-6 rounded-lg shadow-lg w-full h-48 flex flex-col items-center justify-center hover:shadow-xl transition-shadow">
+              <a href={link.url} target="_blank" rel="noopener noreferrer" class="text-center">
+                <img src={link.icon} alt={link.name} class="w-16 h-16 mb-4 mx-auto" />
+                <p class="text-lg font-semibold text-gray-800">{link.name}</p>
+                <p class="text-sm text-gray-500 mt-2">{link.comment}</p>
+              </a>
+            </div>
+          ))}
+        </div>
+
+      </section>
+    </main>
+
+    <script type="module" src="/script/global.js"></script>
+  </body>
+</html>

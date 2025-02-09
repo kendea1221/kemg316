@@ -1,0 +1,85 @@
+[
+    {
+      "name": "@KemG316",
+      "url": "https://twitter.com/KemG316",
+      "icon": "../assets/logo/x.svg",
+      "comment": "メインアカウント"
+    },
+    {
+        "name": "@KendeaPodcaster",
+        "url": "https://twitter.com/KendeaPodcaster/",
+        "icon": "../assets/logo/x.svg",
+        "comment": "ポッドキャスト界隈アカウント"
+    },
+    {
+        "name": "@kenshiro2788",
+        "url": "https://discord.com/user/kenshiro2788/",
+        "icon": "../assets/logo/discord.svg",
+        "comment": "なにかあればこちらまで！"
+    },
+    {
+        "name": "@ksr__.10 🔒️",
+        "url": "https://instagram.com/ksr__.10/",
+        "icon": "../assets/logo/instagram.svg",
+        "comment": "日常 プライベートアカウント"
+    },
+    {
+        "name": "Kenshiro TAMATA 🔒️",
+        "url": "https://www.facebook.com/profile.php?id=100091080632142/",
+        "icon": "../assets/logo/facebook.svg"
+    },
+    {
+        "name": "@kendea1221",
+        "url": "https://github.com/kendea1221",
+        "icon": "../assets/logo/github.svg",
+        "comment": "開発したソースコードを保管しています"
+    },
+    {
+        "name": "@kenshiro2788",
+        "url": "https://note.com/kenshiro2788/",
+        "icon": "../assets/logo/note.svg",
+        "comment": "日々起こったことをメモするよう"
+    },
+    {
+        "name": "@officekendea",
+        "url": "https://note.com/officekendea/",
+        "icon": "../assets/logo/note.svg",
+        "comment": "愛の楽曲工房『OFFICE KENDEA』のnote"
+    },
+    {
+        "name": "@kendea1221",
+        "url": "https://qiita.com/kendea1221",
+        "icon": "../assets/logo/qiita.svg",
+        "comment": "技術系の記事を投稿"
+    },
+    {
+        "name": "@kenshiro2788",
+        "url": "https://zenn.dev/kenshiro2788",
+        "icon": "../assets/logo/zenn.svg",
+        "comment": "技術系の記事を投稿"
+    },
+    {
+        "name": "@Kenshiro",
+        "url": "https://open.spotify.com/user/31h4v6ewhvmkgvdbzfpgkinx62cy?si=7JN3gSuPS6OweV5su19V2w",
+        "icon": "../assets/logo/spotify.svg"
+    },
+    {
+        "name": "@Kenlog",
+        "url": "https://scrapbox.io/kenlog",
+        "icon": "../assets/logo/scrapbox.svg",
+        "comment": "適当なメモをするscrapboxプロジェクト"
+    },
+    {
+        "name": "Larva06",
+        "url": "https://larva06.com/",
+        "icon": "../assets/logo/larva06.svg",
+        "comment": "技術開発部・記事部に所属して活動をしています。"
+    },
+    {
+        "name": "能登半島地震学生支援募金プロジェクト",
+        "url": "https://notostudentsfound.studio.site/",
+        "icon": "../assets/logo/nsf.svg",
+        "comment": "中国・四国支部長を務めています。"
+    }
+]
+  

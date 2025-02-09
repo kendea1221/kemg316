@@ -1,0 +1,65 @@
+---
+import Header from '../components/Header.astro';
+import Head from '../components/Head.astro';
+---
+
+<html lang="en">
+  <Head title="Projects" />
+  <body class="bg-white text-gray-800">
+    <Header />
+
+    <main class="py-16">
+      <section class="max-w-4xl mx-auto px-4">
+        <div class="text-center mb-12">
+          <h1 class="text-4xl font-semibold text-gray-900">Projects</h1>
+          <p class="text-lg text-gray-600 mt-2">私が現在取り組んでいるプロジェクトをご紹介します。</p>
+        </div>
+
+        <div class="space-y-12">
+
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <h2 class="text-3xl font-semibold text-gray-900">M5 Stackを使用したDXのアプローチ</h2>
+            <p class="text-lg text-gray-700 mt-2">
+              現在M5 Stackを利用した地元企業へのDXを推進するためのアプローチを行っています。<br />
+              そのためのデータ可視化アプリケーションM5Vizの開発にも取り組んでいます。
+            </p>
+            <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
+              <div class="bg-green-500 h-2.5 rounded-full" style="width: 40%"></div>
+            </div>
+            <p class="text-sm text-gray-500 mt-2">進行状況: 40%</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <h2 class="text-3xl font-semibold text-gray-900">修道物理班 マネジメントアプリケーション</h2>
+            <p class="text-lg text-gray-700 mt-2">
+              自分の所属している部活動での出席システムをNodejsとMySQLで構築しました。<br />
+              学籍番号とDBのデータを参照して出欠を記録します。
+            </p>
+            <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
+              <div class="bg-blue-500 h-2.5 rounded-full" style="width: 100%"></div>
+            </div>
+            <p class="text-sm text-gray-500 mt-2">進行状況: 完了</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <h2 class="text-3xl font-semibold text-gray-900">能登半島地震学生支援募金プロジェクト 中国・四国支部長</h2>
+            <p class="text-lg text-gray-700 mt-2">
+              2024/01/01に発生した能登半島地震へ向けて募金を行う学生団体で中国・四国支部長を努めています。<br />
+              日々街頭募金の実施・被災地のいち早い復興に向けて活動しています。
+            </p>
+            <a href="https://notostudentsfound.studio.site/" class="inline-block mt-4 text-white bg-blue-500 hover:bg-blue-700 px-6 py-2 rounded-full shadow-md transition">団体HP</a>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <h2 class="text-3xl font-semibold text-gray-900">Larva06 技術開発部 / 記事部</h2>
+            <p class="text-lg text-gray-700 mt-2">
+              中高生メディアLarva06にて技術開発部としてウェブサイトの管理などを行っています。 <br/>
+              また、記事部の一員としても参加しています。
+            </p>
+            <a href="https://larva06.com/" class="inline-block mt-4 text-white bg-blue-500 hover:bg-blue-700 px-6 py-2 rounded-full shadow-md transition">公式サイト</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

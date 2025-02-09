@@ -1,0 +1,38 @@
+---
+import Header from '../components/Header.astro';
+import Skills from '../components/Skills.astro';
+import Head from '../components/Head.astro';
+---
+
+<html lang="en">
+  <Head title="About" />
+  <body>
+    <Header />
+    <main class="py-16">
+        <section class="max-w-4xl mx-auto px-4">
+          <div class="text-center mb-12">
+            <h1 class="text-4xl font-semibold text-gray-900">About</h1>
+            <p class="text-lg text-gray-600 mt-2">広島 / 中学生 / プログラミング / 自作キーボード</p>
+          </div>
+
+          <div class="grtgid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h2 class="text-2xl font-semibold text-gray-900 mb-4">About me</h2>
+              <p class="text-lg text-gray-700">
+                はじめまして！けみぐ(KemG)です！ <br/>
+                工学と経済学に興味があります <br/>
+                また、趣味でポッドキャストを配信しています！ <br/>
+                いろいろなことに取り組んでいます！ <br/>
+                詳しくは、<a href="/projects">こちら</a>を御覧ください！
+              </p>
+            </div>
+
+            <div class="flex justify-center">
+              <img src="../assets/KemG.jpg" alt="プロフィール画像" class="rounded-full border-2 border-gray-300 shadow-md" />
+            </div>
+          </div>            
+          <Skills />
+        </section>
+      </main>
+  </body>
+</html>
