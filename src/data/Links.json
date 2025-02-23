@@ -1,5 +1,11 @@
 [
     {
+      "name": "info@jokuro.net",
+      "url": "mailto:info@jokuro.net",
+      "icon": "../assets/logo/mail.png",
+      "comment": "大事な連絡はこちらへ！"
+    },
+    {
       "name": "@KemG316",
       "url": "https://twitter.com/KemG316",
       "icon": "../assets/logo/x.svg",
